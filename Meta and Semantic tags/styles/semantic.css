@@ -1,0 +1,15 @@
+aside{
+    background-color: rgb(196, 196, 196);
+    float: right;
+    width: 25%;
+    padding: 10px;
+    margin: 5px;
+    margin-right: 0px;
+}
+nav{
+    background-color: rgba(144, 190, 219, 0.801);
+}
+aside>h1{
+    font-size: 110%;
+    margin : 0px 0px 5px 0px;
+}
