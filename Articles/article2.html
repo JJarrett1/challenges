@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="styles/article2.css">
+</head>
+
+<body>
+    <img src="images/log4j.jpg" id="header-image">
+    <h1>What is Log4j? A cybersecurity expert explains the latest internet vulnerability, how bad it is and what's at
+        stake</h1>
+    <p>Author: Santiago Torres-Arias, The Conversation, Date: DECEMBER 23, 2021</p>
+    <hr>
+    <div id="page">
+        <img src="images/hacker.jpg" class="paragraph-image">
+        <div id="setion1" class="content">
+            <h2>Log4Shell</h2>
+            <p>Log4Shell, an internet vulnerability that affects millions of computers, involves an obscure but nearly
+                ubiquitous piece of software, Log4j. The software is used to record all manner of activities that go on
+                under the hood in a wide range of computer systems.
+                Jen Easterly, director of the U.S. Cybersecurity & Infrastructure Security Agency, called Log4Shell the
+                most serious vulnerability she's seen in her career. There have already been hundreds of thousands,
+                perhaps millions, of attempts to exploit the vulnerability.
+                So what is this humble piece of internet infrastructure, how can hackers exploit it and what kind of
+                mayhem could ensue?
+            </p>
+        </div>
+        <div id="setion2" class="content">
+            <h2>What does Log4j do?</h2>
+            <p>Log4j records events—errors and routine system operations—and communicates diagnostic messages about them
+                to system administrators and users. It's open-source software provided by the Apache Software
+                Foundation.</p>
+            <p>A common example of Log4j at work is when you type in or click on a bad web link and get a 404 error
+                message. The web server running the domain of the web link you tried to get to tells you that there's no
+                such webpage. It also records that event in a log for the server's system administrators using Log4j.
+            </p>
+            <p>Similar diagnostic messages are used throughout software applications. For example, in the online game
+                Minecraft, Log4j is used by the server to log activity like total memory used and user commands typed
+                into the console.
+            </p>
+        </div>
+        <br>
+        <img src="images/work.png" class="paragraph-image" alt="A Placeholder Image">
+        <div id="setion3" class="content">
+            <h2>How does Log4Shell work?</h2>
+            <p>Log4Shell works by abusing a feature in Log4j that allows users to specify custom code for formatting a
+                log message. This feature allows Log4j to, for example, log not only the username associated with each
+                attempt to log in to the server but also the person's real name, if a separate server holds a directory
+                linking user names and real names. To do so, the Log4j server has to communicate with the server holding
+                the real names.</p>
+            <p>Unfortunately, this kind of code can be used for more than just formatting log messages. Log4j allows
+                third-party servers to submit software code that can perform all kinds of actions on the targeted
+                computer. This opens the door for nefarious activities such as stealing sensitive information, taking
+                control of the targeted system and slipping malicious content to other users communicating with the
+                affected server.</p>
+            <p> It is relatively simple to exploit Log4Shell. I was able to reproduce the problem in my copy of Ghidra,
+                a reverse-engineering framework for security researchers, in just a couple of minutes. There is a very
+                low bar for using this exploit, which means a wider range of people with malicious intent can use it.
+            </p>
+        </div>
+        <div id="setion4" class="content">
+            <h2>Log4j is everywhere</h2>
+            <p>One of the major concerns about Log4Shell is Log4j's position in the software ecosystem. Logging is a
+                fundamental feature of most software, which makes Log4j very widespread. In addition to popular games
+                like Minecraft, it's used in cloud services like Apple iCloud and Amazon Web Services, as well as a wide
+                range of programs from software development tools to security tools.
+            </p>
+            <p> This means hackers have a large menu of targets to choose from: home users, service providers, source
+                code developers and even security researchers. So while big companies like Amazon can quickly patch
+                their web services to prevent hackers from exploiting them, there are many more organizations that will
+                take longer to patch their systems, and some that might not even know they need to.
+            </p>
+        </div>
+    </div>
+    <a href="https://techxplore.com/news/2021-12-log4j-cybersecurity-expert-latest-internet.html">Info Source</a>
+</body>
+
+</html>

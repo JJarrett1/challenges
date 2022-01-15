@@ -1,0 +1,39 @@
+:root{
+    --text-background: rgba(235, 173, 214, 0.788);
+}
+#header-image{
+    width: 100%;
+    height: 50vh;
+    text-align: left;
+}
+#page{
+    background-color: var(--text-background);
+    padding: 10px;
+    border-radius: 10px;
+}
+h1{
+    text-align: center;
+}
+h2{
+    font-size: 130%;
+    text-align: left;
+}
+p{
+    text-align: left;
+}
+body{
+    width:100%;
+    margin:0px;
+}
+
+.content{
+   width: 80vw;
+   margin-left: 5vw;
+   text-align: center;
+}
+.paragraph-image {
+    width: 35vw;
+    height: auto; 
+}
+
+
