@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=The+Nautigal&display=swap');
+img{
+    width : 90%;
+    height: auto;
+    margin: 0px;
+}
+figure{
+    text-align: center;
+    margin: 30px;
+}
+figcaption{
+    font-size: 150%;
+    font-family: cursive;
+}
+header{
+    font-size: 200%;
+    font-family: 'The Nautigal', cursive, sans-serif;
+    text-align: center;
+    color: chocolate;
+}
+nav{
+    background-color: chocolate;
+    padding: 6px;
+}
+a{
+    color: white;
+    text-decoration: none;
+}
+a:hover{
+    color: blue;
+}
