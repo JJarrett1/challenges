@@ -1,0 +1,21 @@
+
+@import "index.css";
+#nav-icon{
+    height: auto;
+    width: auto;
+    max-height: 20px;
+    margin: 0px;
+    padding: 0px;
+}
+
+ol>figure{
+    width: 70%;
+} 
+footer{
+    background-color: var(--theme);
+    padding: 6px;
+}
+h2{
+    font-size: 120%;
+}
+

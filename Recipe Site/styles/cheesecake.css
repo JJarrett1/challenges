@@ -1,0 +1,7 @@
+@import "pages.css";
+:root{
+    --theme: rgb(106, 0, 128);
+}
+#cheesecake{
+    width: 70%;
+}

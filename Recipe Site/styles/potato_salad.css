@@ -1,0 +1,9 @@
+@import "pages.css";
+:root{
+    --theme: green;
+    --link-hover: purple;
+}
+#potatoes{
+    width: 50%;
+
+}

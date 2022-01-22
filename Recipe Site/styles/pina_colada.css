@@ -1,0 +1,7 @@
+@import "pages.css";
+:root{
+    --theme:yellow;
+}
+#colada{
+    width: 40%;
+}
