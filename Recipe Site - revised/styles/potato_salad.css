@@ -1,0 +1,6 @@
+@import "pages.css";
+:root{
+    --theme: green;
+    --link-hover: purple;
+    --image: url("../images/potato-salad.jpg");
+}

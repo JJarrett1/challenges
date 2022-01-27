@@ -1,0 +1,7 @@
+@import "pages.css";
+:root{
+    --theme: red;
+  
+        --image: url("../images/sesame-chicken.jpg");
+    
+    }

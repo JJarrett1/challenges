@@ -1,0 +1,10 @@
+@import "pages.css";
+:root{
+    --theme: yellow;
+  
+        --image: url("../images/pina-colada.jpg");
+    
+    }
+    a{
+        color:rgb(7, 128, 47);
+    }

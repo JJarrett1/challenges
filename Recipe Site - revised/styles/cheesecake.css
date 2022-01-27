@@ -1,0 +1,7 @@
+@import "pages.css";
+:root{
+    --theme: rgb(92, 16, 116);
+  
+        --image: url("../images/cheesecake.jpg");
+    
+    }

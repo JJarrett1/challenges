@@ -1,0 +1,5 @@
+@import "pages.css";
+:root{
+    --theme: orange;
+    --image : url("../images/spanish-rice.jpg");
+}
