@@ -1,4 +1,7 @@
 @import "pages.css";
+:root{
+--theme: red;
+}
 #sesame{
     width: 70%;
 }
