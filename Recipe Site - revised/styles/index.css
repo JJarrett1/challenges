@@ -4,6 +4,11 @@
     --link-hover: blue;
     --image-link: url("../images/sesame-chicken.jpg");
 }
+.card{
+    box-shadow: 0 15px 10px rgba(0, 0, 0, 0.397);
+    padding-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.692);
+}
 img{
     width : 90%;
     height: auto;
@@ -26,6 +31,9 @@ header{
 nav{
     background-color: var(--theme);
     padding: 6px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 a{
     color: white;
@@ -33,4 +41,10 @@ a{
 }
 a:hover{
     color: var(--link-hover);
+}
+body{
+    background-color: rgba(210, 105, 30, 0.5);
+}
+h1{
+    text-shadow: 1px 1px 1px rgb(0, 0, 0);
 }
